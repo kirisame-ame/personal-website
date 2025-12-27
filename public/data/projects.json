@@ -1,0 +1,16 @@
+{
+    "projects":[
+        {
+            "title":"ML Models From Scratch",
+            "imgSrc":"",
+            "desc": "Machine Learning models built from scratch in python",
+            "link": "https://github.com/kirisame-ame/ML-Models-From-Scratch"
+        },
+        {
+            "title":"Songwiz",
+            "imgSrc":"https://raw.githubusercontent.com/kirisame-ame/porto-static/refs/heads/main/assets/songwiz.png",
+            "desc": "Song finder and album image query",
+            "link": "https://songwiz.kirisame.jp.net/"
+        }
+    ]
+}

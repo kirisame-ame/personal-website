@@ -1,3 +1,4 @@
+import ProjectContainer from "../components/ProjectContainer";
 import ArrowDown from "../components/svg/ArrowDown";
 import { useTranslation } from "react-i18next";
 export default function Projects() {
@@ -13,7 +14,7 @@ export default function Projects() {
           <h1 className="text-4xl font-bold">{t("projects_title")}</h1>
         </div>
         <div className="flex flex-col">
-          <p className="">TBA</p>
+          <ProjectContainer />
         </div>
       </div>
       <div

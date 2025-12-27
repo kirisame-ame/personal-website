@@ -48,7 +48,7 @@ function App() {
           <LinkContainer />
         </div>
         <div
-          className="absolute bottom-20 left-1/2 flex h-20 w-full -translate-x-1/2 translate-y-1/2 animate-x-fade-in-down cursor-pointer items-center justify-center md:w-lg"
+          className="absolute bottom-10 left-1/2 flex h-20 w-full -translate-x-1/2 translate-y-1/2 animate-x-fade-in-down cursor-pointer items-center justify-center md:w-lg"
           onClick={() =>
             document
               .getElementById("intro")
