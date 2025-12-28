@@ -26,9 +26,9 @@ export default function ProjectContainer() {
         }
     }
     return (
-        <div>
+        <div className="flex flex-col justify-center">
             {/*Card grid 2x2*/}
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-2 gap-4">
                 {
                     projects.map((project) => (
                         <ProjectCard project={project} />
@@ -36,9 +36,9 @@ export default function ProjectContainer() {
                 }
             </div>
             {/*Pagination Buttons*/}
-            <div>
-                <button></button>
-                <button></button>
+            <div className="flex justify-around">
+                <button>prev</button>
+                <button>next</button>
             </div>
         </div>
 

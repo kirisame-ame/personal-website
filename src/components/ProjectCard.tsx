@@ -12,9 +12,11 @@ export default function ProjectCard({
 }) {
     return (
         <a href={project.link} target="_blank" rel="noopener noreferrer">
-            <div>
-                <h1>{project.title}</h1>
-                <img src={project.imgSrc}></img>
+            <div className="flex flex-col h-48 w-48 items-center justify-center bg-gray-50 rounded-3xl p-2">
+                {project.imgSrc && <img src={project.imgSrc} className="h-24"></img>}
+
+
+                <h1 className="font-medium">{project.title}</h1>
                 <p>{project.desc}</p>
             </div>
         </a>

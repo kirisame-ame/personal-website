@@ -13,12 +13,12 @@ export default function Projects() {
         <div className="flex">
           <h1 className="text-4xl font-bold">{t("projects_title")}</h1>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col ml-6">
           <ProjectContainer />
         </div>
       </div>
       <div
-        className="absolute bottom-20 flex h-20 w-full rotate-180 animate-x-fade-in-down cursor-pointer items-center justify-center md:w-lg"
+        className="absolute bottom-10 flex h-20 w-full rotate-180 animate-x-fade-in-down cursor-pointer items-center justify-center md:w-lg"
         onClick={() =>
           document.getElementById("top")?.scrollIntoView({ behavior: "smooth" })
         }

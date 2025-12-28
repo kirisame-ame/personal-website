@@ -17,7 +17,7 @@ export default function Experience() {
         </div>
       </div>
       <div
-        className="absolute bottom-20 flex h-20 w-full animate-x-fade-in-down cursor-pointer items-center justify-center md:w-lg"
+        className="absolute bottom-10 flex h-20 w-full animate-x-fade-in-down cursor-pointer items-center justify-center md:w-lg"
         onClick={() =>
           document
             .getElementById("projects")
