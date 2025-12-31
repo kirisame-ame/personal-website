@@ -9,16 +9,17 @@ export default function Projects() {
       id="projects"
       className="relative flex h-dvh w-full flex-col items-center justify-center bg-x-ryo"
     >
-      <div className="flex h-full w-3/4 flex-col items-center md:flex-row md:justify-between">
-        <div className="flex">
+      <div className="flex h-full w-3/4 flex-col items-center justify-center md:flex-row md:justify-between">
+        <div className="flex flex-col mb-5 md:mb-0">
           <h1 className="text-4xl font-bold">{t("projects_title")}</h1>
+          <h2 className="">{t("projects_subtitle")}</h2>
         </div>
-        <div className="flex flex-col ml-6">
+        <div className="flex flex-col md:ml-6">
           <ProjectContainer />
         </div>
       </div>
       <div
-        className="absolute bottom-10 flex h-20 w-full rotate-180 animate-x-fade-in-down cursor-pointer items-center justify-center md:w-lg"
+        className="absolute lg:bottom-10 bottom-5 flex h-10 lg:h-20 w-full rotate-180 animate-x-fade-in-down cursor-pointer items-center justify-center md:w-lg"
         onClick={() =>
           document.getElementById("top")?.scrollIntoView({ behavior: "smooth" })
         }
