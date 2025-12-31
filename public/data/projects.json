@@ -16,6 +16,13 @@
         },
         {
             "id": 2,
+            "title":"ChatBot",
+            "imgSrc":"https://raw.githubusercontent.com/kirisame-ame/porto-static/refs/heads/main/assets/songwiz.png",
+            "desc": "Chatbot with RAG and LORA",
+            "link": "https://songwiz.kirisame.jp.net/"
+        },
+        {
+            "id": 3,
             "title":"Songwiz",
             "imgSrc":"https://raw.githubusercontent.com/kirisame-ame/porto-static/refs/heads/main/assets/songwiz.png",
             "desc": "Song finder and album image query",

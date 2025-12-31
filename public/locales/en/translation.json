@@ -11,5 +11,6 @@
 
   "desc_project_0":"Machine Learning models built from scratch in python",
   "desc_project_1": "Song finder and album image query" ,
-  "desc_project_2": "Song finder and album image query"
+  "desc_project_2": "Chatbot with RAG and LORA",
+  "desc_project_3": "Song finder and album image query"
 }
