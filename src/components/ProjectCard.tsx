@@ -21,7 +21,7 @@ export default function ProjectCard({
 
 
                 <h1 className="font-medium">{project.title}</h1>
-                <p>{t("desc_project_" + project.id)}</p>
+                <p className="hidden md:block">{t("desc_project_" + project.id)}</p>
             </div>
         </a>
     )
