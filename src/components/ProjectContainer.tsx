@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import ProjectCard from "./ProjectCard";
 
 interface Project {
+    id: number,
     title: string,
     imgSrc: string | undefined,
     desc: string,
@@ -35,11 +36,7 @@ export default function ProjectContainer() {
                     ))
                 }
             </div>
-            {/*Pagination Buttons*/}
-            <div className="flex justify-around">
-                <button>prev</button>
-                <button>next</button>
-            </div>
+
         </div>
 
     )

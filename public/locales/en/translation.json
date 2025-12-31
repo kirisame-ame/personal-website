@@ -6,5 +6,9 @@
   "about_title": "About Me",
   "about_description": "Undergraduate Student majoring in Informatics Engineering at ITB. Primarily interested in Data Science, Machine Learning, and Artificial Intelligence. Has additional experience with Web Development on Front End, Back End, and deployment. Also a music producer.",
   "experience_title": "Experience",
-  "projects_title": "Projects"
+  "projects_title": "Projects",
+
+  "desc_project_0":"Machine Learning models built from scratch in python",
+  "desc_project_1": "Song finder and album image query" ,
+  "desc_project_2": "Song finder and album image query"
 }

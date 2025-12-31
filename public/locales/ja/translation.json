@@ -6,5 +6,9 @@
   "about_title": "自己紹介",
   "about_description": "バンドン工業大学「ITB」で情報工学を専攻する学部生。データサイエンス(DS)、機械学習(ML)、人工知能(AI)に興味がある。ウェブ開発の経験もある。ボカロPでもある。",
   "experience_title": "経験",
-  "projects_title": "プロジェクト"
+  "projects_title": "プロジェクト",
+
+  "desc_project_0":"Pythonで機械学習モデル",
+  "desc_project_1": "歌とアルバムカバーを検索" ,
+  "desc_project_2": "歌とアルバムカバーを検索"
 }

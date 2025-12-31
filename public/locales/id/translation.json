@@ -6,5 +6,9 @@
   "about_title": "Tentang saya",
   "about_description": "Mahasiswa tahun ke-3 Teknik Informatika (IF) di Institut Teknologi Bandung, memiliki minat dalam bidang Data Sains (DS), Pembelajaran Mesin (ML) dan Kecerdasan Buatan (AI). Juga memiliki pengalaman dalam pengembangan web dalam bidang Front End, Back End, hingga deployment.",
   "experience_title": "Pengalaman",
-  "projects_title": "Proyek"
+  "projects_title": "Proyek",
+
+  "desc_project_0":"Model pembelajaran mesin from scratch dengan python",
+  "desc_project_1": "Pencari lagu dan gambar cover album" ,
+  "desc_project_2": "Pencari lagu dan gambar cover album"
 }
