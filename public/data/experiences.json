@@ -2,30 +2,24 @@
     "experiences":[
         {
             "id":0,
-            "year_start":"2024",
-            "month_start":"10",
-            "year_end": "2025",
-            "month_end":"5",
+            "start_date":"2024-10",
+            "end_date": "2025-05",
             "title":"Data Science Community Intern",
             "company": "HMIF ITB",
             "desc":"Conducted solution reveals for internal kaggle competitions"
         },
         {
             "id":1,
-            "year_start":"2025",
-            "month_start":"6",
-            "year_end":"2026",
-            "month_end":"1",
+            "start_date":"2025-06",
+            "end_date":"2026-01",
             "title":"Data Scientist Intern",
             "company": "PT Tanto Intim Line",
             "desc":"1. Created a report generator desktop app with java. 2. Conducted an analysis on fuel consumption of ships"
         },
         {
             "id":2,
-            "year_start":"2025",
-            "month_start":"11",
-            "year_end":"",
-            "month_end":"",
+            "start_date":"2025-11",
+            "end_date":"",
             "title":"Data Science Community Staff",
             "company": "HMIF ITB",
             "desc":""
