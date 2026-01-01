@@ -25,7 +25,7 @@ export default function ExperienceGraph() {
     }
     return (
         <div>
-
+            {experiences[0].id}
         </div>
     )
 }

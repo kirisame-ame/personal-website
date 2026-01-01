@@ -9,6 +9,6 @@ interface Experience {
 
 export default function ExperienceNode(experience: Experience) {
     return (
-        <div></div>
+        <div>{experience.id}</div>
     )
 }
