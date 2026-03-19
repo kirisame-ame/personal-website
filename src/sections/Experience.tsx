@@ -1,3 +1,4 @@
+import ExperienceGraph from "../components/ExperienceGraph";
 import ArrowDown from "../components/svg/ArrowDown";
 import { useTranslation } from "react-i18next";
 export default function Experience() {
@@ -13,7 +14,8 @@ export default function Experience() {
           <h1 className="text-4xl font-bold">{t("experience_title")}</h1>
         </div>
         <div className="flex flex-col">
-          <p className="">TBA</p>
+          <ExperienceGraph />
+          {/* <p className="">TBA</p> */}
         </div>
       </div>
       <div

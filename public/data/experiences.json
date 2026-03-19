@@ -14,14 +14,14 @@
             "end_date":"2026-01",
             "title":"Data Scientist Intern",
             "company": "PT Tanto Intim Line",
-            "desc":"1. Created a report generator desktop app with java. 2. Conducted an analysis on fuel consumption of ships"
+            "desc":"1. Created a report generator desktop app with java.</br>2. Conducted an analysis on fuel consumption of ships"
         },
         {
             "id":2,
-            "start_date":"2025-11",
+            "start_date":"2025-08",
             "end_date":"",
-            "title":"Data Science Community Staff",
-            "company": "HMIF ITB",
+            "title":"Artificial Intelligence Laboratory Assistant",
+            "company": "STEI ITB",
             "desc":""
         }
     ]
