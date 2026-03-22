@@ -9,7 +9,7 @@ export default function Projects() {
       id="projects"
       className="relative flex h-dvh w-full flex-col items-center justify-center bg-x-ryo"
     >
-      <div className="flex h-full w-3/4 flex-col items-center justify-center lg:flex-row lg:justify-between">
+      <div className="flex h-full mx-4 lg:w-3/4 flex-col items-center justify-center lg:flex-row lg:justify-between">
         <div className="flex flex-col mb-5 lg:mb-0">
           <h1 className="text-5xl font-bold">{t("projects_title")}</h1>
           <h2 className="mt-2">{t("projects_subtitle")}</h2>

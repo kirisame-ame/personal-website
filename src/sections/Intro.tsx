@@ -8,7 +8,7 @@ export default function Intro() {
       id="intro"
       className="relative flex h-dvh w-full flex-col items-center justify-center bg-x-bocchi"
     >
-      <div className="flex h-full w-3/4 flex-col justify-center items-center lg:flex-row lg:justify-between">
+      <div className="flex h-full mx-4 lg:w-3/4 flex-col justify-center items-center lg:flex-row lg:justify-between">
         <div className="flex mb-5 lg:mb-0 lg:w-1/2">
           <h1 className="text-5xl font-bold">{t("about_title")}</h1>
         </div>

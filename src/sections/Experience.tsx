@@ -9,7 +9,7 @@ export default function Experience() {
       id="experience"
       className="relative flex h-dvh w-full flex-col items-center justify-center bg-x-nijika"
     >
-      <div className="flex h-full w-3/4 flex-col items-center justify-center lg:flex-row lg:justify-between">
+      <div className="flex h-full mx-4 lg:w-3/4 flex-col items-center justify-center lg:flex-row lg:justify-between">
         <div className="flex mb-5 lg:mb-0">
           <h1 className="text-5xl font-bold">{t("experience_title")}</h1>
         </div>
