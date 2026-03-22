@@ -20,11 +20,12 @@ export default function Intro() {
       </div>
       <div
         className="absolute bottom-5 lg:bottom-10 flex h-10 lg:h-20 w-full animate-x-fade-in-down cursor-pointer items-center justify-center lg:w-lg"
-        onClick={() =>
+        onClick={() => {
           document
             .getElementById("experience")
-            ?.scrollIntoView({ behavior: "smooth" })
-        }
+            ?.scrollIntoView({ behavior: "smooth" });
+          window.history.pushState(null, "", "#experience");
+        }}
       >
         <ArrowDown />
       </div>

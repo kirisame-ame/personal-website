@@ -20,9 +20,10 @@ export default function Projects() {
       </div>
       <div
         className="absolute lg:bottom-10 bottom-5 flex h-10 lg:h-20 w-full rotate-180 animate-x-fade-in-down cursor-pointer items-center justify-center lg:w-lg"
-        onClick={() =>
-          document.getElementById("top")?.scrollIntoView({ behavior: "smooth" })
-        }
+        onClick={() => {
+          document.getElementById("top")?.scrollIntoView({ behavior: "smooth" });
+          window.history.pushState(null, "", "#top");
+        }}
       >
         <ArrowDown />
       </div>
