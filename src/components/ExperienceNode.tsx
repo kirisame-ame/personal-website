@@ -9,7 +9,7 @@ interface Experience {
 
 export default function ExperienceNode({ experience, onClick }: { experience: Experience, onClick: (detail: Experience) => void }) {
     return (
-        <div className="flex flex-col px-2 items-baseline hover:bg-x-exp-hover cursor-pointer" onClick={() => onClick(experience)}>
+        <div className="flex flex-col px-2 items-baseline text-left hover:bg-x-exp-hover cursor-pointer" onClick={() => onClick(experience)}>
             <h1 className="font-bold">{experience.title}</h1>
             <div className="flex flex-col items-baseline">
                 <h2>@  {experience.company}</h2>
