@@ -29,11 +29,11 @@ function App() {
       {/* Main content */}
       <div
         id="top"
-        className="flex h-dvh flex-col items-center justify-center md:w-3xl"
+        className="flex h-dvh flex-col items-center justify-center mx-4 lg:mx-0 lg:w-full"
       >
         <ProfilePicContainer paths={[general_pp, kirisame_pp]} />
-        <p className="text-sm font-medium md:text-4xl">{t("name")}</p>
-        <p className="text-xs font-light md:text-2xl">
+        <p className="text-xl font-medium lg:text-5xl">{t("name")}</p>
+        <p className="text-md font-light lg:text-2xl">
           {t("interests")}
           <Link
             href="https://lit.link/kirisameame"
@@ -48,12 +48,13 @@ function App() {
           <LinkContainer />
         </div>
         <div
-          className="absolute bottom-10 left-1/2 flex h-20 w-full -translate-x-1/2 translate-y-1/2 animate-x-fade-in-down cursor-pointer items-center justify-center md:w-lg"
-          onClick={() =>
+          className="absolute bottom-10 left-1/2 flex h-20 w-full -translate-x-1/2 translate-y-1/2 animate-x-fade-in-down cursor-pointer items-center justify-center lg:w-lg"
+          onClick={() => {
             document
               .getElementById("intro")
-              ?.scrollIntoView({ behavior: "smooth" })
-          }
+              ?.scrollIntoView({ behavior: "smooth" });
+            window.history.pushState(null, "", "#intro");
+          }}
         >
           <ArrowDown />
         </div>

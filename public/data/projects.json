@@ -17,16 +17,16 @@
         {
             "id": 2,
             "title":"ChatBot",
-            "imgSrc":"https://raw.githubusercontent.com/kirisame-ame/porto-static/refs/heads/main/assets/songwiz.png",
+            "imgSrc":"",
             "desc": "Chatbot with RAG and LORA",
-            "link": "https://songwiz.kirisame.jp.net/"
+            "link": "https://rag.kirisame.jp.net/"
         },
         {
             "id": 3,
-            "title":"Songwiz",
-            "imgSrc":"https://raw.githubusercontent.com/kirisame-ame/porto-static/refs/heads/main/assets/songwiz.png",
-            "desc": "Song finder and album image query",
-            "link": "https://songwiz.kirisame.jp.net/"
+            "title":"Music Wiki",
+            "imgSrc":"https://github.com/kirisame-ame/music-wiki/blob/main/static/img/image_logo.png?raw=true",
+            "desc": "Music Theory Wiki with Docusaurus",
+            "link": "https://wiki.kirisame.jp.net/"
         }
     ]
 }
