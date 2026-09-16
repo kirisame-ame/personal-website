@@ -1,32 +1,32 @@
 {
-    "projects":[
-        {
-            "id":0,
-            "title":"ML Models From Scratch",
-            "imgSrc":"",
-            "desc": "Machine Learning models built from scratch in python",
-            "link": "https://github.com/kirisame-ame/ML-Models-From-Scratch"
-        },
-        {
-            "id":1,
-            "title":"Songwiz",
-            "imgSrc":"https://raw.githubusercontent.com/kirisame-ame/porto-static/refs/heads/main/assets/songwiz.png",
-            "desc": "Song finder and album image query",
-            "link": "https://songwiz.kirisame.jp.net/"
-        },
-        {
-            "id": 2,
-            "title":"ChatBot",
-            "imgSrc":"",
-            "desc": "RAG Chatbot with Langchain",
-            "link": "https://chat.kirisame.jp.net/"
-        },
-        {
-            "id": 3,
-            "title":"Music Wiki",
-            "imgSrc":"https://github.com/kirisame-ame/music-wiki/blob/main/static/img/image_logo.png?raw=true",
-            "desc": "Music Theory Wiki with Docusaurus",
-            "link": "https://wiki.kirisame.jp.net/"
-        }
-    ]
+  "projects": [
+    {
+      "id": 0,
+      "title": "ML Models From Scratch",
+      "imgSrc": "",
+      "desc": "Machine Learning models built from scratch in python",
+      "link": "https://github.com/kirisame-ame/ML-Models-From-Scratch"
+    },
+    {
+      "id": 1,
+      "title": "Songwiz",
+      "imgSrc": "https://raw.githubusercontent.com/kirisame-ame/porto-static/refs/heads/main/assets/songwiz.png",
+      "desc": "Song finder and album image query",
+      "link": "https://songwiz.kirisame.jp.net/"
+    },
+    {
+      "id": 2,
+      "title": "ChatBot",
+      "imgSrc": "https://raw.githubusercontent.com/kirisame-ame/personalRAG/refs/heads/main/image.png",
+      "desc": "RAG Chatbot with Langchain",
+      "link": "https://archive.kirisame.jp.net/"
+    },
+    {
+      "id": 3,
+      "title": "Music Wiki",
+      "imgSrc": "https://github.com/kirisame-ame/music-wiki/blob/main/static/img/image_logo.png?raw=true",
+      "desc": "Music Theory Wiki with Docusaurus",
+      "link": "https://wiki.kirisame.jp.net/"
+    }
+  ]
 }

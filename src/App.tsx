@@ -15,8 +15,8 @@ import SideBar from "./components/SideBar";
 
 // Section imports
 import Intro from "./sections/Intro";
-import Experience from "./sections/Experience";
-import Projects from "./sections/Projects";
+import Experience from "./sections/experience/Experience";
+import Projects from "./sections/projects/Projects";
 
 import { useTranslation } from "react-i18next";
 
@@ -29,7 +29,7 @@ function App() {
       {/* Main content */}
       <div
         id="top"
-        className="flex h-dvh flex-col items-center justify-center mx-4 lg:mx-0 lg:w-full"
+        className="mx-4 flex h-dvh flex-col items-center justify-center lg:mx-0 lg:w-full"
       >
         <ProfilePicContainer paths={[general_pp, kirisame_pp]} />
         <p className="text-xl font-medium lg:text-5xl">{t("name")}</p>

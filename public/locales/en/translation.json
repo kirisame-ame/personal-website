@@ -4,15 +4,15 @@
   "select_lang": "Select Language",
   "music_producer": "Music Producer",
   "about_title": "About Me",
-  "about_description": "Undergraduate Student majoring in Informatics Engineering at ITB. ",
-  "about_description2":"Primarily interested in Data Science, Machine Learning, and Artificial Intelligence. ",
-  "about_description3":"Has additional experience with Web Development on Front End, Back End, and deployment. Also a music producer.",
+  "about_description": "Final year undergraduate student majoring in Computer Science at ITB. ",
+  "about_description2": "Currently working as an AI Engineer and AI Research Assistant/Engineer ",
+  "about_description3": "Has additional experience with Web Development on Front End, Back End, and deployment. Also a music producer.",
   "experience_title": "Experience",
   "projects_title": "Projects",
   "projects_subtitle": "Top 4",
 
-  "desc_project_0":"Machine Learning models built from scratch in python",
-  "desc_project_1": "Song finder and album image query" ,
+  "desc_project_0": "Machine Learning models built from scratch in python",
+  "desc_project_1": "Song finder and album image query",
   "desc_project_2": "Chatbot with RAG and LORA",
   "desc_project_3": "Music Theory Wiki with Docusaurus"
 }

@@ -1,28 +1,52 @@
 {
-    "experiences":[
-        {
-            "id":0,
-            "start_date":"2024-10",
-            "end_date": "2025-05",
-            "title":"Data Science Community Intern",
-            "company": "HMIF ITB",
-            "desc":"Conducted solution reveals for internal kaggle competitions"
-        },
-        {
-            "id":1,
-            "start_date":"2025-06",
-            "end_date":"2026-01",
-            "title":"Data Scientist Intern",
-            "company": "",
-            "desc":"1. Created a report generator desktop app with java.</br>2. Conducted an analysis on fuel consumption of ships"
-        },
-        {
-            "id":2,
-            "start_date":"2025-08",
-            "end_date":"",
-            "title":"Artificial Intelligence Laboratory Assistant",
-            "company": "STEI ITB",
-            "desc":""
-        }
-    ]
+  "experiences": [
+    {
+      "id": 0,
+      "start_date": "2024-10",
+      "end_date": "2025-05",
+      "title": "Data Science Community Intern",
+      "company": "HMIF ITB",
+      "desc": "Conducted solution reveals for internal kaggle competitions"
+    },
+    {
+      "id": 1,
+      "start_date": "2025-06",
+      "end_date": "2026-01",
+      "title": "Data Scientist Intern",
+      "company": "PT Tanto Intim Line",
+      "desc": "1. Created a report generator desktop app with java.</br>2. Conducted an analysis on fuel consumption of ships"
+    },
+    {
+      "id": 2,
+      "start_date": "2025-08",
+      "end_date": "Ongoing",
+      "title": "Artificial Intelligence Laboratory Assistant",
+      "company": "STEI ITB",
+      "desc": ""
+    },
+    {
+      "id": 3,
+      "start_date": "2026-07",
+      "end_date": "2026-08",
+      "title": "Forward Deployed Engineer (AI)",
+      "company": "PT Tanto Intim Line",
+      "desc": ""
+    },
+    {
+      "id": 4,
+      "start_date": "2026-06",
+      "end_date": "Ongoing",
+      "title": "AI Research Assistant/Engineer",
+      "company": "Institut Teknologi Bandung",
+      "desc": ""
+    },
+    {
+      "id": 5,
+      "start_date": "2026-09",
+      "end_date": "Ongoing",
+      "title": "AI Engineer",
+      "company": "HIT Corporation",
+      "desc": ""
+    }
+  ]
 }

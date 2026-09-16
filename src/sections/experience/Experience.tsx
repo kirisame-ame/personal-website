@@ -1,5 +1,5 @@
-import ExperienceGraph from "../components/ExperienceGraph";
-import ArrowDown from "../components/svg/ArrowDown";
+import ExperienceGraph from "./components/ExperienceGraph";
+import ArrowDown from "../../components/svg/ArrowDown";
 import { useTranslation } from "react-i18next";
 export default function Experience() {
   const { t } = useTranslation();
@@ -9,8 +9,8 @@ export default function Experience() {
       id="experience"
       className="relative flex h-dvh w-full flex-col items-center justify-center bg-x-nijika"
     >
-      <div className="flex h-full mx-4 lg:w-3/4 flex-col items-center justify-center lg:flex-row lg:justify-between">
-        <div className="flex mb-5 lg:mb-0">
+      <div className="mx-4 flex h-full flex-col items-center justify-center lg:w-3/4 lg:flex-row lg:justify-between">
+        <div className="mb-5 flex lg:mb-0">
           <h1 className="text-5xl font-bold">{t("experience_title")}</h1>
         </div>
         <div className="flex flex-col">
@@ -19,7 +19,7 @@ export default function Experience() {
         </div>
       </div>
       <div
-        className="absolute bottom-5 lg:bottom-10 flex h-10 lg:h-20 w-full animate-x-fade-in-down cursor-pointer items-center justify-center lg:w-lg"
+        className="absolute bottom-5 flex h-10 w-full animate-x-fade-in-down cursor-pointer items-center justify-center lg:bottom-10 lg:h-20 lg:w-lg"
         onClick={() => {
           document
             .getElementById("projects")
